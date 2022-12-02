@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MarksFragment">
+    <CalendarView
+        android:id="@+id/calendarViews"
+        android:layout_width="match_parent"
+        android:maxDate="6/29/2024"
+        android:minDate="9/1/2020"
+        android:layout_height="wrap_content"
+        android:selectedWeekBackgroundColor="#91D3F8"
+        android:weekNumberColor="#91D3F8"
+        android:weekSeparatorLineColor="#91D3F8" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv"/>
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        />
+    <ImageView
+        android:id="@+id/editlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="280dp"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageView
+        android:id="@+id/editpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageView
+        android:id="@+id/buttonlogin"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="49dp"
+        app:srcCompat="@drawable/buttonlogin" />
+
+    <EditText
+        android:id="@+id/edittextlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="300dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Логин"
+        android:text="20033"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/edittextpass"
+        android:layout_width="wrap_content"
+        android:text="uugpmk"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="200dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <ImageView
+    android:id="@+id/auth"
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginStart="50dp"
+    android:layout_marginBottom="300dp"
+    app:srcCompat="@drawable/auth" />
+
+    <ImageView
+        android:id="@+id/pass"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="200dp"
+        app:srcCompat="@drawable/password" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp"
+        android:text="Войти"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+</RelativeLayout>
